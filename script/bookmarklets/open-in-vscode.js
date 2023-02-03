@@ -6,3 +6,4 @@ const isIndexFile = filepath.split('/').length < 5
 const filename = isIndexFile ? '/index.md' : '.md'
 const fullpath = 'vscode://file' + checkoutPath + filepath + filename
 window.open(fullpath, '_blank')
+K57g
